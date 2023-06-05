@@ -23,6 +23,8 @@ func main() {
 
 	c := pb.NewCalculatorServiceClient(conn)
 
-	doSum(c)
+	//doSum(c)
+
+	primeNumberDecomposition(c)
 
 }
